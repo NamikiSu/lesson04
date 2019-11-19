@@ -1,7 +1,6 @@
-@charset "UTF-8";
-
+@charset "utf-8";
 *,*::before,*::after{
-    box-sizing: border-box;
+    box-sixing: border-box;
 }
 
 body{
@@ -11,15 +10,14 @@ body{
 }
 
 /*.section-wrap
- ---------------------------------*/
+----------------------------------------*/
 .section-wrap{
     background-color: #111111;
     padding: 24px;
 }
 
-
-/* .hero-area
---------------------------------- */
+/*.heroarea
+-----------------------------------------*/
 .hero-area{
     display: flex;
     background-color: #000000;
@@ -34,11 +32,12 @@ body{
 }
 .hero-r{
     width: 50%;
-
+    display: flex;
+    /* 子要素を右側に配置する */
+    justify-content: flex-end;
 }
-
-/* .sales
---------------------------------- */
+/*.sales
+---------------------------------*/
 .sales{
     text-align: center;
 }
@@ -52,12 +51,11 @@ body{
     font-weight: bold;
     margin-bottom: 27px;
 }
-.sales p {
+.sales p{
     font-family: "SF Text";
     font-size: 13px;
     margin-bottom: 22px;
 }
-
 .sales button{
     width: 51px;
     height: 29px;
@@ -66,17 +64,22 @@ body{
     border: none;
     border-radius: 51px;
     color: #ffffff;
+    /* radius=半径 */
 }
-
 .sales ul{
     display: flex;
     justify-content: space-between;
     width: 197px;
     margin: 0 auto;
-
 }
 .sales li{
     font-family: "SF Text";
     font-size: 13px;
     color: #2997FF;
+}
+
+/*margin01-area
+------------------------------------------*/
+.margin01-area{
+
 }
