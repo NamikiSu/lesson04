@@ -1,6 +1,6 @@
 @charset "utf-8";
-*,*::before,*::after{
-    box-sixing: border-box;
+*, *::before, *::after{
+    box-sizing: border-box;
 }
 
 body{
@@ -78,8 +78,107 @@ body{
     color: #2997FF;
 }
 
-/*margin01-area
+/*main01-area
 ------------------------------------------*/
-.margin01-area{
+.main01-area{
+    height: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    background: url(../img/main01.png) no-repeat center center;
+    background-size: cover;
+}
+.main01-area h2{
+    font-size: 58px;
+}
+/*main02-area
+------------------------------------*/
+.main02-area{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main02-area div{
+    width: 48.722%;
+    height: 534px;
+    margin-bottom: 24px;
+}
+.main02-area div:nth-of-type(1){
+    background: url(../img/main02.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.main02-area div:nth-of-type(1) h4{
+    font-size: 31px;
+    position: absolute;
+    top: 367px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.main02-area div:nth-of-type(2){
+    background: url(../img/main03.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.main02-area div:nth-of-type(2) h4{
+    font-size: 31px;
+    position: absolute;
+    top: 318px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.main02-area div:nth-of-type(3){
+    background: url(../img/main04.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.main02-area div:nth-of-type(3) h4{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 186px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
 
+.main02-area div:nth-of-type(4){
+    background: url(../img/main05.png) no-repeat center center;
+    background-size: cover;
+}
+.main02-area div:nth-of-type(5){
+    background: url(../img/main06.png) no-repeat center center;
+    background-size: cover;
+}
+.main02-area div:nth-of-type(6){
+    background: url(../img/main07.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.main02-area div:nth-of-type(6) h4{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 39px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.main02-area div:nth-of-type(6) h5{
+    font-size: 32px;
+    position: absolute;
+    top: 97px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/*.main03-area
+----------------------------------------*/
+.main03-area{
+    background-color: #000000;
+    padding: 70px 0 76px;
 }
